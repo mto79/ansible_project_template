@@ -1,2 +1,2 @@
-# ansible_playbook_host
-Ansible Playbook - Personal Development Host Development System
+# ansible_playbook_template
+Ansible Template - Personal Template for an Ansible Playbook
