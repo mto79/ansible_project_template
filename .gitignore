@@ -2,9 +2,13 @@
 config/var/*
 config/ansible.log
 config/known_hosts
+ansible.log
 
-# Ignore uptream code directory
-roles/
+# Ignore upstream code directory
+roles/*
+!roles/requirements.yml
+collections/*
+!collections/requirements.yml
 
 # Ignore generic files
 *.pyc
@@ -24,3 +28,6 @@ roles/
 
 # MacOS cruft
 .DS_Store
+
+### Ansible
+*.retry
